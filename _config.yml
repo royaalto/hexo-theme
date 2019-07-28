@@ -23,7 +23,7 @@ SEOTitle: Roy | Blog
 email: roy6669049@gmail.com
 description: ""
 keyword: ""
-header-img: img/header_img/home-bg-2-dark.png
+header-img: img/header_img/got.jpg
 signature: false #show signature
 signature-img: img/signature/BeanTechSign-white.png 
 
@@ -60,7 +60,7 @@ ga_domain: yoursite
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "Hi, i'm Roy Zhang, a robotics engineer working in Finland. I am interested in Robotics, ML, Web."
+sidebar-about-description: "Hi, i'm Roy Zhang, a robotics engineer. I am interested in Robotics, ML, Web. And used be a good basketball player, music fan, bagua."
 sidebar-avatar: img/head.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - featured-tags
@@ -83,7 +83,12 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 ## Friends
 friends: [
-    {
+    
+{
+        title: "中科院",
+        href: “http://www.cas.cn/”
+},  
+{
         title: "Gim Robotics",
         href: "http://www.gimltd.fi/"
     },{
