@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Your Title
-subtitle: This is hexo theme
-author: John Doe
+title: Royのブログ
+subtitle: What is dead will never die
+author: Roy Zhang
 language:
 timezone:
 
@@ -19,12 +19,12 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Beantech | 豆科技
-email: beantech@gmail.com
+SEOTitle: Roy | Blog
+email: roy6669049@gmail.com
 description: ""
 keyword: ""
 header-img: img/header_img/home-bg-2-dark.png
-signature: true #show signature
+signature: false #show signature
 signature-img: img/signature/BeanTechSign-white.png 
 
 
@@ -32,10 +32,10 @@ signature-img: img/signature/BeanTechSign-white.png
 # RSS: false
 # weibo_username:     Demonbaneen
 # zhihu_username:     Demonbane
-github_username:    YenYuHsuan
+github_username:    royaalto
 # twitter_username:   Demonbane_x
-facebook_username:  YenYuHsuan
-linkedin_username:  yu-hsuan-yen
+#facebook_username:  Roy
+#linkedin_username:  Roy
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -60,15 +60,15 @@ ga_domain: yoursite
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
-sidebar-about-description: "Hi, i'm John Doe"
-sidebar-avatar: img/ironman-draw.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Hi, i'm Roy Zhang, a robotics engineer working in Finland. I am interested in Robotics, ML, Web."
+sidebar-avatar: img/head.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 widgets:
 - featured-tags
 - short-about
-- recent-posts
+#- recent-posts
 - friends-blog
-# - archive
-# - category
+- archive
+- category
 
 # widget behavior
 ## Archive
@@ -84,17 +84,11 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 ## Friends
 friends: [
     {
-        title: "Bean Tech",
-        href: "http://beantech.org"
+        title: "Gim Robotics",
+        href: "http://www.gimltd.fi/"
     },{
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
-    },{
-        title: "Hux Blog",
-        href: "http://huangxuan.me"
-    },{
-        title: "It Helps SEO",
-        href: "#"
+        title: "Aalto University",
+        href: "https://www.aalto.fi/en"
     }
 ]
 
@@ -135,6 +129,14 @@ category_map:
 tag_map:
 home_posts_tag: true # show posts tags
 
+# default_category: article
+# category_map:
+#   Docker: docker
+#   Kubernetes: kubernetes
+#   Golang: golang
+#   Nginx: nginx
+#   Etcd: etcd
+#   Database: database
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -177,5 +179,5 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/YenYuHsuan/hexo-theme-beantech.git
-  branch: gh-page
+  repository: git@github.com:royaalto/royaalto.github.io.git
+  branch: master
